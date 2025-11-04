@@ -9,5 +9,18 @@ print(f"hello,{name}")
 
 name=input("enter your name:") 
 name=name.strip() 
-name=name.capitalize()                    ''' capilizes the letters in  name  '''
-print(f"hello,{name}")
+name=name.capitalize()                    ''' capilizes the letters in  name   #Annu shanbhagh '''
+print(f"hello,{name}") 
+
+
+name=input("enter your name:") 
+name=name.strip() 
+name=name.title()                    ''' capilizes the letters in  name   #Annu Shanbhagh '''
+print(f"hello,{name}") 
+
+name=input("enter your name:") 
+name=name.strip().title()                  ''' capilizes the letters in  name   #Annu shanbhagh '''
+print(f"hello,{name}")   
+
+name=input("enter your name:").strip().title()                    ''' capilizes the letters in  name   #Annu shanbhagh '''
+print(f"hello,{name}") 
