@@ -1,0 +1,19 @@
+'''write a program  that takes a string from the user and prints
+1.how many uppercase and lowercase letters it has in it
+2.whether its all alphabets,digits or mixed
+3.whether its uppercase or lowercase'''
+
+a=input( "enter a string:")
+uppercase_count=0
+lowercase_count = 0
+for ch in a:
+    if ch.isupper():
+        uppercase_count += 1
+    elif ch.islower():
+        lowercase_count += 1
+print("uppercase letters:", uppercase_count)
+print("lowercase letters:", lowercase_count)
+print("contains alphabets:",any(ch.isalpha( ) for ch in a))
+print("contains digits:",any(ch.isdigit( ) for ch in a))
+print("all uppercase:",a.isupper( ))
+print("all lowercase:",a.islower( ))
