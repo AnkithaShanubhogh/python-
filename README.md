@@ -22,5 +22,13 @@ name=input("enter your name:")
 name=name.strip().title()                  ''' capilizes the letters in  name   #Annu shanbhagh '''
 print(f"hello,{name}")   
 
-name=input("enter your name:").strip().title()                    ''' capilizes the letters in  name   #Annu shanbhagh '''
+name=input("enter your name:").strip().title()           ''' capilizes the letters in  name   #Annu shanbhagh '''
 print(f"hello,{name}") 
+
+name=input("enter your name:").strip().title()          '''      capilizes the letters in  name   #Annu shanbhagh  
+first , last = name.split(" ")                        while entering name with surname no too many spaces aloowed it shows an error '''
+print(f"hello,{name}") 
+
+
+
+
