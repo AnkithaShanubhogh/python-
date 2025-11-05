@@ -1,0 +1,15 @@
+x=input("what's x? ") 
+y=input("what's y? ")               # input function returns a string
+z=x+y 
+print(z) 
+
+# To fix the code and perform addition instead of concatenation, we need to convert the inputs to integers or floats.
+x=int(input("what's x? "))
+y=int(input("what's y? "))
+z=x+y
+print(z)
+# Alternatively, for decimal numbers, we can use float:
+x=float(input("what's x? "))
+y=float(input("what's y? "))
+z=x+y
+print(z)
