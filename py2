@@ -1,0 +1,6 @@
+letter="jklmnopq"
+for p in letter: 
+    if p=='o' or p=='q':                                            # Special case for 'o' and 'q'
+        print( p + 'u' + "ack")                                    # Prints "ouack", "quack"
+    else:                   
+        print( p + "ack")                                   # Prints "jack", "kack", "lack", "mack", "nack", "ouack", "quack"
