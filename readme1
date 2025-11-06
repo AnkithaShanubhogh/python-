@@ -13,3 +13,10 @@ x=float(input("what's x? "))
 y=float(input("what's y? "))
 z=x+y
 print(z)
+
+#using for loop 
+count = 0 
+for i in range (1,5): 
+    count += i
+print(count)                            # 10 as output    
+
