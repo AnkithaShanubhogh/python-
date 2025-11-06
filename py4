@@ -1,0 +1,21 @@
+#1.
+def main():
+    name=input("enter your name? ")
+    hello(name) 
+
+
+def hello(to="world!"): 
+    print("hello", to) 
+
+main()                                      # calling main function to start the program else this will not run
+
+
+#2.
+def main():                                                 # main function to start the program
+    x=int(input("what's x?"))
+    print("squared x is", square(x))
+
+def square(n):                                              # function to square a number
+    return n*n 
+    '''return n**2 / return pow(n,2) also works'''
+main()
