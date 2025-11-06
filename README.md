@@ -31,4 +31,15 @@ print(f"hello,{name}")
 
 
 
+#3, 
+
+def hello(to="world!"):                           '''defining function'''
+    print("hello", to)
+    
+hello()
+name=input("enter your name? ")                  '''function call'''
+hello(name) 
+
+
+
 
