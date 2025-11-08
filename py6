@@ -1,0 +1,28 @@
+# 1.
+def main():
+    meow(3)
+
+def meow(n):
+    for i in range(3):
+        print("meow")
+main()
+
+#2,
+def main():
+    number=get_number()             # Get a positive integer from the user
+    meow(number)                    # Call the meow function with that number
+
+def get_number():
+    while True:                            # Loop until a valid number is entered
+        n=int(input("what's n? "))
+        if n > 0:                               # Check if n is positive
+            break                               # Exit the loop if valid
+    return n                        # Return the valid number
+
+def meow(n):                    # Define the meow function
+    for _ in range(n):          # Loop n times
+        print("meow")                           
+
+main()
+
+
